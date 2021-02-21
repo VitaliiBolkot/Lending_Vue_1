@@ -29,73 +29,67 @@
 	</div>
 </template>
 
-
 <script>
-	export default{
-
-	}
+	export default{}
 </script>
 
-
 <style scoped lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&display=swap');
-
-	hr{
-		    width: 10%;
-    border: none;
-    height: 1px;
-    background-color: #cccccc;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
-	}
-	.div-icon{
-		border:1px solid #cccccc;
-		width:130px;
-		height:130px;
-		display:flex;
-		flex-direction:row;
-		justify-content:center;
-		align-items:center;
-	}
-	h6{
-		color:#d4b392;
-		font-family: 'Open Sans', sans-serif;
-	}
-	small{
-		font-family: 'Open Sans', sans-serif;
-		text-align:center;
-		padding-left: 3rem;
-    	padding-right: 3rem;
-    	padding-top:2rem;
-	}
-	strong{
-		font-family: 'Open Sans', sans-serif;
-	}
-	h2{
-		margin-bottom:1rem;
-		margin-top:4rem;
-		font-family: 'Bebas Neue', cursive;
-	}
-	.main-row{
-		margin-top:5rem;
-		display:flex;
-		flex-direction:row;
-		justify-content:space-between;
-		width:70%;
-		align-items:center
-	}
-	.services{
-		display:flex;
-		flex-direction:column;
-		justify-content:center;
-		align-items:center;
-	}
-	.service-col{
-		display:flex;
-		flex-direction:column;
-		justify-content:center;
-		flex:1;
-		align-items:center;
-		
-	}
+@import "@/styles/_variables.scss";
+hr{
+	width: 10%;
+	border: none;
+	height: 1px;
+	background-color: $color-border;
+	margin-top: 5rem;
+	margin-bottom: 5rem;
+}
+.div-icon{
+	border:1px solid $color-border;
+	width:130px;
+	height:130px;
+	display:flex;
+	flex-direction:row;
+	justify-content:center;
+	align-items:center;
+}
+h6{
+	color:$color-h6;
+	font-family: $font-family-opensans;
+}
+small{
+	font-family: $font-family-opensans;
+	text-align:center;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-top:2rem;
+}
+strong{
+	font-family: $font-family-opensans;
+}
+h2{
+	margin-bottom:1rem;
+	margin-top:4rem;
+	font-family: $font-family-bebas;
+}
+.main-row{
+	margin-top:5rem;
+	display:flex;
+	flex-direction:row;
+	justify-content:space-between;
+	width:70%;
+	align-items:center
+}
+.services{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+.service-col{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	flex:1;
+	align-items:center;
+}
 </style>

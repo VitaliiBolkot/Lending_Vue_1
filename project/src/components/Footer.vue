@@ -22,15 +22,15 @@
 </script>
 
 <style scoped lang="scss">
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@600&display=swap');
+@import "@/styles/_variables.scss";
 	.footer{
 		display:flex;
 		flex-direction:row;
 		justify-content:space-around;
-		padding:40px;
+		padding:20px;
 	}
 	.footer-data{
-font-family: 'Open Sans', sans-serif;
+font-family: $font-family-opensans;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -29,21 +29,36 @@
   import Blog from '@/components/Blog'
   import ContactUs from '@/components/ContactUs'
   import FindUs from '@/components/FindUs'
-    import Footer from '@/components/Footer'
+  import Footer from '@/components/Footer'
   export default{
 
     components:{
-      NavBar,About,Home,Works,Services,
-      Prices,BackVideo,TestImonials,Clients,Blog,ContactUs,FindUs,Footer
+      NavBar,
+      About,
+      Home,
+      Works,
+      Services,
+      Prices,
+      BackVideo,
+      TestImonials,
+      Clients,
+      Blog,
+      ContactUs,
+      FindUs,
+      Footer
     }
   }
   
 </script>
 
 <style lang="scss">
+  
     @import "~materialize-css/dist/css/materialize.min.css";
     #app{
       display: flex;
     flex-direction: column;
     }
+
+   
+
 </style>
